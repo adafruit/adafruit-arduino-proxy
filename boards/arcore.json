@@ -3,7 +3,7 @@
   "architecture": "avr",
   "version": "1.6.2",
   "category": "Arduino",
-  "url": "https://uniontownlabs.org/arcore-1.6.2.tar.bz2",
+  "url": "http://uniontownlabs.org/arcore-1.6.2.tar.bz2",
   "archiveFileName": "arcore-1.6.2.tar.bz2",
   "checksum": "SHA-256:b9a46eeadb5b7869981272aa1181f5bf86fa778327a19de6767c2af04c54a60c",
   "size": "1108985",

@@ -1,8 +1,11 @@
 var request = require('request'),
     http = require('http');
-    url = require('url');
+    url = require('url'),
+    fs = require('fs');
 
 http.createServer(function(req, res) {
+
+  console.log(req.url);
 
   var parsed = url.parse(req.url);
 
@@ -37,21 +40,17 @@ function inject(data, res, proxy) {
     return res.end('{"packages": []}');
   }
 
-  for(var i=0; i < parsed.packages.length; i++) {
+  var arcore = require('./packages/arcore.json');
 
-    if(parsed.packages[i].name !== 'arduino')
-      continue;
+  arcore.platforms = [
+    require('./boards/arcore.json')
+  ];
 
-
-    parsed.packages[i].platforms.push(require('./boards/arcore.json'));
-    console.log(parsed.packages[i].platforms);
-
-  }
+  parsed.packages.push(arcore);
 
   var body = JSON.stringify(parsed);
 
   proxy.headers['content-length'] = body.length;
-
   res.writeHead(proxy.statusCode, proxy.headers);
   res.write(body);
   res.end();

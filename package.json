@@ -2,7 +2,7 @@
   "name": "arduino-proxy",
   "version": "1.0.0",
   "description": "A hack to add boards to the Arduino Board Manager",
-  "main": "index.js",
+  "main": "proxy.js",
   "dependencies": {
     "request": "^2.54.0"
   },
