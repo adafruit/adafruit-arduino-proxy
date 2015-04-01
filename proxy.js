@@ -5,8 +5,6 @@ var request = require('request'),
 
 http.createServer(function(req, res) {
 
-  console.log(req.url);
-
   var parsed = url.parse(req.url);
 
   if(! /arduino\.cc$/.test(parsed.hostname) && ! /uniontownlabs\.org$/.test(parsed.hostname))
@@ -18,16 +16,11 @@ http.createServer(function(req, res) {
     headers: req.headers
   };
 
+  if(! /package_index\.json$/.test(req.url) || req.headers.range != 'bytes=0-')
+    return request(proxy_options).pipe(res);
+
   request(proxy_options, function(err, proxy_response, body) {
-
-    if(! /package_index\.json$/.test(req.url) || req.headers.range != 'bytes=0-') {
-      res.writeHead(proxy_response.statusCode, proxy_response.headers);
-      res.write(body);
-      return res.end();
-    }
-
     inject(body, res, proxy_response);
-
   });
 
 }).listen(5050);
@@ -41,7 +34,6 @@ function inject(data, res, proxy) {
   }
 
   var arcore = require('./packages/arcore.json');
-
   arcore.platforms = [
     require('./boards/arcore.json')
   ];
