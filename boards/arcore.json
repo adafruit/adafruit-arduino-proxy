@@ -1,12 +1,12 @@
 {
   "name": "Leonardo & Micro MIDI-USB (arcore)",
   "architecture": "avr",
-  "version": "1.6.2",
+  "version": "1.0.0",
   "category": "Arduino",
-  "url": "http://uniontownlabs.org/arcore-1.6.2.tar.bz2",
-  "archiveFileName": "arcore-1.6.2.tar.bz2",
-  "checksum": "SHA-256:b01e795aeaa01fca0498e6970455fb5d854ae93a1ad86b75e1f0290675a5356a",
-  "size": "4752891",
+  "url": "http://uniontownlabs.org/arcore-1.0.0.tar.bz2",
+  "archiveFileName": "arcore-1.0.0.tar.bz2",
+  "checksum": "SHA-256:37ec329c16cc5d8f7da810665505107b24d85e6eea7e74d1677615cf7c5bcb01",
+  "size": "1135927",
   "boards": [
     {"name": "Arduino Leonardo (MIDI)"},
     {"name": "Arduino Leonardo (MIDI, iPad compatible)"},
