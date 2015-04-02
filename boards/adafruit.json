@@ -1,0 +1,32 @@
+{
+  "name": "Adafruit AVR Boards",
+  "architecture": "avr",
+  "version": "1.0.0",
+  "category": "Arduino",
+  "url": "http://uniontownlabs.org/adafruit-1.0.0.tar.bz2",
+  "archiveFileName": "adafruit-1.0.0.tar.bz2",
+  "checksum": "SHA-256:13939dfcdeba21936b6a9adb27bb8aabf71ecd961947503e009a2aa83aa5d5db",
+  "size": "26385",
+  "boards": [
+    {"name": "Adafruit Flora"},
+    {"name": "Adafruit Gemma 8MHz"},
+    {"name": "Adafruit Trinket 8MHz"},
+    {"name": "Adafruit Trinket 16MHz"},
+    {"name": "Pro Trinket 5V/16MHz (USB)"},
+    {"name": "Pro Trinket 3V/12MHz (USB)"},
+    {"name": "Pro Trinket 5V/16MHz (FTDI)"},
+    {"name": "Pro Trinket 3V/12MHz (FTDI)"}
+  ],
+  "toolsDependencies": [
+    {
+      "packager": "adafruit",
+      "name": "avr-gcc",
+      "version": "4.8.1-arduino3"
+    },
+    {
+      "packager": "adafruit",
+      "name": "avrdude",
+      "version": "6.0.1-arduino3"
+    }
+  ]
+}
