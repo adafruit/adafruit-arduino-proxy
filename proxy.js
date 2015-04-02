@@ -1,7 +1,14 @@
 var request = require('request'),
     http = require('http');
-    url = require('url'),
-    fs = require('fs');
+    url = require('url');
+
+// build adafruit package
+var arcore = require('./packages/arcore.json');
+arcore.platforms = arcore.platforms.concat(require('./boards/arcore.json'));
+
+// build adafruit package
+var adafruit = require('./packages/adafruit.json');
+adafruit.platforms = adafruit.platforms.concat(require('./boards/adafruit.json'));
 
 http.createServer(function(req, res) {
 
@@ -32,14 +39,6 @@ function inject(data, res, proxy) {
   } catch(e) {
     return res.end('{"packages": []}');
   }
-
-  // build adafruit package
-  var arcore = require('./packages/arcore.json');
-  arcore.platforms = arcore.platforms.concat(require('./boards/arcore.json'));
-
-  // build adafruit package
-  var adafruit = require('./packages/adafruit.json');
-  adafruit.platforms = adafruit.platforms.concat(require('./boards/adafruit.json'));
 
   parsed.packages.push(arcore);
   parsed.packages.push(adafruit);
