@@ -11,17 +11,5 @@
     {"name": "Arduino Leonardo (MIDI)"},
     {"name": "Arduino Leonardo (MIDI, iPad compatible)"},
     {"name": "Arduino Micro (MIDI)"}
-  ],
-  "toolsDependencies": [
-    {
-      "packager": "arduino",
-      "name": "avr-gcc",
-      "version": "4.8.1-arduino3"
-    },
-    {
-      "packager": "arduino",
-      "name": "avrdude",
-      "version": "6.0.1-arduino3"
-    }
   ]
 }
