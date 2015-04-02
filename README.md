@@ -1,4 +1,4 @@
-# Arduino Board Manager Test Proxy Server
+# Arduino Board Manager Custom Board Proxy
 
 This is a simple node.js HTTP proxy that allows you to inject custom boards into the Arduino 1.6.2+
 `package_list.json` file. When the list is requested, it grabs the latest package list from Arduino's
@@ -29,8 +29,8 @@ $ node proxy.js
 
 ## Example Packages & Boards
 
-You can take a look at the boards & packages directory for examples. They probably can be simplified,
-but they seem to be a good starting spot.
+You can take a look at the `boards` & `packages` directories for examples. They probably can be simplified,
+but they are a good starting place.
 
 ![Screenshot](/proxy.png?raw=true "Proxy")
 
