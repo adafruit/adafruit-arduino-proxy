@@ -1,8 +1,8 @@
 {
    "name":"arcore",
-   "maintainer":"Adafruit",
-   "websiteURL":"http://adafruit.com/",
-   "email":"info@adafruit.com",
+   "maintainer":"Ralf Kistner",
+   "websiteURL":"https://github.com/rkistner/arcore",
+   "email":"ralf@journeyapps.com",
    "platforms":[],
    "tools":[
       {
