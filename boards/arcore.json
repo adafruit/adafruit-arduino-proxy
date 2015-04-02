@@ -14,12 +14,12 @@
   ],
   "toolsDependencies": [
     {
-      "packager": "arduino",
+      "packager": "arcore",
       "name": "avr-gcc",
       "version": "4.8.1-arduino3"
     },
     {
-      "packager": "arduino",
+      "packager": "arcore",
       "name": "avrdude",
       "version": "6.0.1-arduino3"
     }
