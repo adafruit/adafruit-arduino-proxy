@@ -5,8 +5,8 @@
   "category": "Arduino",
   "url": "http://uniontownlabs.org/adafruit-1.0.0.tar.bz2",
   "archiveFileName": "adafruit-1.0.0.tar.bz2",
-  "checksum": "SHA-256:13939dfcdeba21936b6a9adb27bb8aabf71ecd961947503e009a2aa83aa5d5db",
-  "size": "26385",
+  "checksum": "SHA-256:542ebdf3dd56ab303f9478c05c79e1b5a82be876553df08367e10194bf230c08",
+  "size": "26371",
   "boards": [
     {"name": "Adafruit Flora"},
     {"name": "Adafruit Gemma 8MHz"},
@@ -18,11 +18,6 @@
     {"name": "Pro Trinket 3V/12MHz (FTDI)"}
   ],
   "toolsDependencies": [
-    {
-      "packager": "adafruit",
-      "name": "avr-gcc",
-      "version": "4.8.1-arduino3"
-    },
     {
       "packager": "adafruit",
       "name": "avrdude",
