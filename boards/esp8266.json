@@ -1,0 +1,21 @@
+{
+  "name": "ESP8266",
+  "architecture": "esp8266",
+  "version": "1.6.1",
+  "category": "ESP8266",
+  "url": "http://uniontownlabs.org/esp8266-1.6.1.tar.bz2",
+  "archiveFileName": "esp8266-1.6.1.tar.bz2",
+  "checksum": "SHA-256:8fd53e09fe64b8d9db144d9f17bd49cae59620541ad9e655639233ae91058ad6",
+  "size": "568900",
+  "boards": [
+    {"name": "Generic ESP8266 board"},
+    {"name": "WIFIO"}
+  ],
+  "toolsDependencies": [
+    {
+      "packager": "esp8266",
+      "name": "esptool",
+      "version": "0.4.2"
+    }
+  ]
+}

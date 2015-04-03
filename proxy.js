@@ -10,6 +10,10 @@ arcore.platforms = arcore.platforms.concat(require('./boards/arcore.json'));
 var adafruit = require('./packages/adafruit.json');
 adafruit.platforms = adafruit.platforms.concat(require('./boards/adafruit.json'));
 
+// build esp8266 package
+var esp = require('./packages/esp8266.json');
+esp.platforms = esp.platforms.concat(require('./boards/esp8266.json'));
+
 http.createServer(function(req, res) {
 
   var parsed = url.parse(req.url);
@@ -42,6 +46,7 @@ function inject(data, res, proxy) {
 
   parsed.packages.push(arcore);
   parsed.packages.push(adafruit);
+  parsed.packages.push(esp);
 
   var body = JSON.stringify(parsed);
 
