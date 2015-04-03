@@ -1,12 +1,12 @@
 {
   "name": "Adafruit AVR Boards",
   "architecture": "avr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "Arduino",
-  "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.0.tar.bz2",
-  "archiveFileName": "adafruit-1.0.0.tar.bz2",
-  "checksum": "SHA-256:542ebdf3dd56ab303f9478c05c79e1b5a82be876553df08367e10194bf230c08",
-  "size": "26371",
+  "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.1.tar.bz2",
+  "archiveFileName": "adafruit-1.0.1.tar.bz2",
+  "checksum": "SHA-256:308e0b8c9a82fee600a3fc86f525a850008f288d4be1b4b305b1dd1be2a285e7",
+  "size": "26390",
   "boards": [
     {"name": "Adafruit Flora"},
     {"name": "Adafruit Gemma 8MHz"},
@@ -21,7 +21,7 @@
     {
       "packager": "adafruit",
       "name": "avrdude",
-      "version": "6.0.1-arduino3"
+      "version": "6.0.1-adafruit"
     }
   ]
 }

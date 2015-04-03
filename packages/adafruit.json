@@ -208,6 +208,40 @@
                "url":"http://arduino.cc/download.php?f=/tools/avrdude-6.0.1-arduino3-i686-mingw32.zip"
             }
          ]
+      },
+      {
+         "name":"avrdude",
+         "version":"6.0.1-adafruit",
+         "systems":[
+            {
+               "size":"266216",
+               "checksum":"SHA-256:1aa57316894f4eaa7e0fe060f2fab59821ee7eac477c4d42ea2318671e6242c9",
+               "host":"i386-apple-darwin11",
+               "archiveFileName":"avrdude-6.0.1-adafruit-osx.tar.bz2",
+               "url":"http://apt.adafruit.com/proxy_files/avrdude-6.0.1-adafruit-osx.tar.bz2"
+            },
+            {
+               "size":"749078",
+               "checksum":"SHA-256:7a1b1a903f44a7d52a8d8cfe77819eca2cd9504d398e1de237d72322035bfd42",
+               "host":"x86_64-linux-gnu",
+               "archiveFileName":"avrdude-6.0.1-adafruit-linux64.tar.bz2,
+               "url":"http://apt.adafruit.com/proxy_files/avrdude-6.0.1-adafruit-linux64.tar.bz2"
+            },
+            {
+               "size":"499601",
+               "checksum":"SHA-256:8a21fd13653dbfd6d5f551216e878361dc56a48af967b2d54b8e4c23bae029ac",
+               "host":"i686-linux-gnu",
+               "archiveFileName":"avrdude-6.0.1-adafruit-linux32.tar.bz2",
+               "url":"http://apt.adafruit.com/proxy_files/avrdude-6.0.1-adafruit-linux32.tar.bz2"
+            },
+            {
+               "size":"231462",
+               "checksum":"SHA-256:9fcb860a47baa15ea7345594539c12e0c1a6bed18bd7c50296252f26d0174c0d",
+               "host":"i686-mingw32",
+               "archiveFileName":"avrdude-6.0.1-adafruit-win32.tar.bz2",
+               "url":"http://apt.adafruit.com/proxy_files/avrdude-6.0.1-adafruit-win32.tar.bz2"
+            }
+         ]
       }
    ]
 }
