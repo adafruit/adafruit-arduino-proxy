@@ -224,7 +224,7 @@
                "size":"749078",
                "checksum":"SHA-256:7a1b1a903f44a7d52a8d8cfe77819eca2cd9504d398e1de237d72322035bfd42",
                "host":"x86_64-linux-gnu",
-               "archiveFileName":"avrdude-6.0.1-adafruit-linux64.tar.bz2,
+               "archiveFileName":"avrdude-6.0.1-adafruit-linux64.tar.bz2",
                "url":"http://apt.adafruit.com/proxy_files/avrdude-6.0.1-adafruit-linux64.tar.bz2"
             },
             {
