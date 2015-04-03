@@ -3,7 +3,7 @@
   "architecture": "esp8266",
   "version": "1.6.1",
   "category": "ESP8266",
-  "url": "http://uniontownlabs.org/esp8266-1.6.1.tar.bz2",
+  "url": "http://apt.adafruit.com/proxy_files/esp8266-1.6.1.tar.bz2",
   "archiveFileName": "esp8266-1.6.1.tar.bz2",
   "checksum": "SHA-256:0caa1b48de7de52bd59096074e81f3cce15da286ec0a6c3e5380895ea66df0a9",
   "size": "123332",

@@ -18,7 +18,7 @@ http.createServer(function(req, res) {
 
   var parsed = url.parse(req.url);
 
-  if(! /arduino\.cc$/.test(parsed.hostname) && ! /uniontownlabs\.org$/.test(parsed.hostname))
+  if(! /arduino\.cc$/.test(parsed.hostname) && ! /adafruit\.com$/.test(parsed.hostname))
     return res.end();
 
   var proxy_options = {

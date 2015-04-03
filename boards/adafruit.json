@@ -3,7 +3,7 @@
   "architecture": "avr",
   "version": "1.0.0",
   "category": "Arduino",
-  "url": "http://uniontownlabs.org/adafruit-1.0.0.tar.bz2",
+  "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.0.tar.bz2",
   "archiveFileName": "adafruit-1.0.0.tar.bz2",
   "checksum": "SHA-256:542ebdf3dd56ab303f9478c05c79e1b5a82be876553df08367e10194bf230c08",
   "size": "26371",
