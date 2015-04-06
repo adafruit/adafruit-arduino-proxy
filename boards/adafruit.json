@@ -1,27 +1,53 @@
-{
-  "name": "Adafruit AVR Boards",
-  "architecture": "avr",
-  "version": "1.0.1",
-  "category": "Arduino",
-  "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.1.tar.bz2",
-  "archiveFileName": "adafruit-1.0.1.tar.bz2",
-  "checksum": "SHA-256:308e0b8c9a82fee600a3fc86f525a850008f288d4be1b4b305b1dd1be2a285e7",
-  "size": "26390",
-  "boards": [
-    {"name": "Adafruit Flora"},
-    {"name": "Adafruit Gemma 8MHz"},
-    {"name": "Adafruit Trinket 8MHz"},
-    {"name": "Adafruit Trinket 16MHz"},
-    {"name": "Pro Trinket 5V/16MHz (USB)"},
-    {"name": "Pro Trinket 3V/12MHz (USB)"},
-    {"name": "Pro Trinket 5V/16MHz (FTDI)"},
-    {"name": "Pro Trinket 3V/12MHz (FTDI)"}
-  ],
-  "toolsDependencies": [
-    {
-      "packager": "adafruit",
-      "name": "avrdude",
-      "version": "6.0.1-adafruit"
-    }
-  ]
-}
+[
+  {
+    "name": "Adafruit AVR Boards",
+    "architecture": "avr",
+    "version": "1.0.1",
+    "category": "Arduino",
+    "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.1.tar.bz2",
+    "archiveFileName": "adafruit-1.0.1.tar.bz2",
+    "checksum": "SHA-256:308e0b8c9a82fee600a3fc86f525a850008f288d4be1b4b305b1dd1be2a285e7",
+    "size": "26390",
+    "boards": [
+      {"name": "Adafruit Flora"},
+      {"name": "Adafruit Gemma 8MHz"},
+      {"name": "Adafruit Trinket 8MHz"},
+      {"name": "Adafruit Trinket 16MHz"},
+      {"name": "Pro Trinket 5V/16MHz (USB)"},
+      {"name": "Pro Trinket 3V/12MHz (USB)"},
+      {"name": "Pro Trinket 5V/16MHz (FTDI)"},
+      {"name": "Pro Trinket 3V/12MHz (FTDI)"}
+    ],
+    "toolsDependencies": [
+      {
+        "packager": "adafruit",
+        "name": "avrdude",
+        "version": "6.0.1-adafruit"
+      }
+    ]
+  },
+  {
+    "name": "Adafruit AVR Boards",
+    "architecture": "avr",
+    "version": "1.0.2",
+    "category": "Arduino",
+    "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.2.tar.bz2",
+    "archiveFileName": "adafruit-1.0.2.tar.bz2",
+    "checksum": "SHA-256:941de48a4258bbce8c33ffb584caab0bba11eb5428052da2303998c6535712ce",
+    "size": "26589",
+    "boards": [
+      {"name": "Adafruit Flora"},
+      {"name": "Pro Trinket 5V/16MHz (USB)"},
+      {"name": "Pro Trinket 3V/12MHz (USB)"},
+      {"name": "Pro Trinket 5V/16MHz (FTDI)"},
+      {"name": "Pro Trinket 3V/12MHz (FTDI)"}
+    ],
+    "toolsDependencies": [
+      {
+        "packager": "adafruit",
+        "name": "avrdude",
+        "version": "6.0.1-adafruit"
+      }
+    ]
+  }
+]
