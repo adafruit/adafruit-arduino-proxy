@@ -3,6 +3,9 @@
    "maintainer":"ESP8266 Community Forum",
    "websiteURL":"http://www.esp8266.com",
    "email":"info@adafruit.com",
+   "help": {
+      "online": "https://adafruit.com"
+   },
    "platforms":[],
    "tools":[
       {

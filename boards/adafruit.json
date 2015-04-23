@@ -3,11 +3,14 @@
     "name": "Adafruit AVR Boards",
     "architecture": "avr",
     "version": "1.0.1",
-    "category": "Arduino",
+    "category": "Adafruit",
     "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.1.tar.bz2",
     "archiveFileName": "adafruit-1.0.1.tar.bz2",
     "checksum": "SHA-256:308e0b8c9a82fee600a3fc86f525a850008f288d4be1b4b305b1dd1be2a285e7",
     "size": "26390",
+    "help": {
+      "online": "https://adafruit.com"
+    },
     "boards": [
       {"name": "Adafruit Flora"},
       {"name": "Adafruit Gemma 8MHz"},
@@ -20,9 +23,14 @@
     ],
     "toolsDependencies": [
       {
-        "packager": "adafruit",
+        "packager": "arduino",
+        "name": "avr-gcc",
+        "version": "4.8.1-arduino5"
+      },
+      {
+        "packager": "arduino",
         "name": "avrdude",
-        "version": "6.0.1-adafruit"
+        "version": "6.0.1-arduino5"
       }
     ]
   },
@@ -30,11 +38,14 @@
     "name": "Adafruit AVR Boards",
     "architecture": "avr",
     "version": "1.0.2",
-    "category": "Arduino",
+    "category": "Adafruit",
     "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.2.tar.bz2",
     "archiveFileName": "adafruit-1.0.2.tar.bz2",
     "checksum": "SHA-256:941de48a4258bbce8c33ffb584caab0bba11eb5428052da2303998c6535712ce",
     "size": "26589",
+    "help": {
+      "online": "https://adafruit.com"
+    },
     "boards": [
       {"name": "Adafruit Flora"},
       {"name": "Pro Trinket 5V/16MHz (USB)"},
@@ -44,9 +55,14 @@
     ],
     "toolsDependencies": [
       {
-        "packager": "adafruit",
+        "packager": "arduino",
+        "name": "avr-gcc",
+        "version": "4.8.1-arduino5"
+      },
+      {
+        "packager": "arduino",
         "name": "avrdude",
-        "version": "6.0.1-adafruit"
+        "version": "6.0.1-arduino5"
       }
     ]
   },
@@ -54,11 +70,14 @@
     "name": "Adafruit AVR Boards",
     "architecture": "avr",
     "version": "1.0.3",
-    "category": "Arduino",
+    "category": "Adafruit",
     "url": "http://apt.adafruit.com/proxy_files/adafruit-1.0.3.tar.bz2",
     "archiveFileName": "adafruit-1.0.3.tar.bz2",
     "checksum": "SHA-256:4cc973e2d95b0eb9e3cbb11550c4ff4d02d82879f9520b75cf42364534363d64",
     "size": "26674",
+    "help": {
+      "online": "https://adafruit.com"
+    },
     "boards": [
       {"name": "Adafruit Flora"},
       {"name": "Pro Trinket 5V/16MHz (USB)"},
@@ -68,9 +87,14 @@
     ],
     "toolsDependencies": [
       {
-        "packager": "adafruit",
+        "packager": "arduino",
+        "name": "avr-gcc",
+        "version": "4.8.1-arduino5"
+      },
+      {
+        "packager": "arduino",
         "name": "avrdude",
-        "version": "6.0.1-adafruit"
+        "version": "6.0.1-arduino5"
       }
     ]
   },
@@ -78,11 +102,14 @@
     "name": "Adafruit AVR Boards",
     "architecture": "avr",
     "version": "1.1.0",
-    "category": "Arduino",
+    "category": "Adafruit",
     "url": "http://apt.adafruit.com/proxy_files/adafruit-1.1.0.tar.bz2",
     "archiveFileName": "adafruit-1.1.0.tar.bz2",
     "checksum": "SHA-256:4e72d4267d9a8d86874edcd021dc661854a5136c0eed947a6fe10366bc51e373",
     "size": "29455",
+    "help": {
+      "online": "https://adafruit.com"
+    },
     "boards": [
       {"name": "Adafruit Flora"},
       {"name": "Pro Trinket 5V/16MHz (USB)"},
@@ -92,9 +119,14 @@
     ],
     "toolsDependencies": [
       {
-        "packager": "adafruit",
+        "packager": "arduino",
+        "name": "avr-gcc",
+        "version": "4.8.1-arduino5"
+      },
+      {
+        "packager": "arduino",
         "name": "avrdude",
-        "version": "6.0.1-adafruit"
+        "version": "6.0.1-arduino5"
       }
     ]
   }
