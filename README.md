@@ -1,5 +1,8 @@
 # Arduino Board Manager Custom Board Proxy
 
+**Warning:** Third party boards are now officially supported in Arduino v1.6.4+, so this is no longer needed.
+Check out [this tutorial for more info](https://learn.adafruit.com/add-boards-arduino-v164).
+
 This is a simple node.js HTTP proxy that allows you to inject custom boards into the Arduino 1.6.2+
 `package_list.json` file. When the list is requested, it grabs the latest package list from Arduino's
 servers and injects the custom packages into the file before serving it back to the IDE.
